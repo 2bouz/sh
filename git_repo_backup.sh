@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# crontab -e
+# 17 4 * * *       $HOME/git_repo_backup.sh >> /tmp/git_backup.log
+
 REMOTEREPO=user@host-name:/repository/path
 
 # backup directory
